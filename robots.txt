@@ -1,0 +1,23 @@
+# robots.txt para Portfólio Osvaldo Capir
+# https://osvaldocapir.online/robots.txt
+
+User-agent: *
+Allow: /
+
+# Permitir acesso a todos os recursos estáticos
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Bloquear acesso a arquivos de sistema/configuração
+Disallow: /.htaccess
+Disallow: /site.tar
+Disallow: /site.zip
+Disallow: /CHECKLIST-DEPLOY.txt
+Disallow: /README-DEPLOY.md
+
+# Sitemap
+Sitemap: https://osvaldocapir.online/sitemap.xml
+
+# Crawl-delay (opcional - remover se não necessário)
+# Crawl-delay: 1
